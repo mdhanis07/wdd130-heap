@@ -4,8 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Herbert - MVP | Analytics</title>
+    <style>
+        body{
+            background-color: #0073CF;
+        }
+
+        div[id="title"]{
+            background-color: #FFC20E;
+            width: 55%;
+            height: 125px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+            border-radius: 15px;
+        }
+
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background-color: #002244;
+        }
+
+        h1{
+            font-size: 60px;
+            font-family: Impact;
+            color: #f5f5f5;
+            -webkit-text-stroke: 1px black;
+        }
+
+        img[id="logo"]{
+            height: 125px;
+            width: auto;
+            border-radius: 5px;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        main{
+            flex: 1;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+        }
+
+        ul li a{
+            display: block;
+            text-decoration: none;
+            color: #f5f5f5;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            margin-right: 35px;
+        }
+
+        ul li a:hover{
+            text-decoration: underline;
+        }
+
+        footer{
+            background-color: #002244;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div id="title">
+            <h1>Justin Herbert - NFL MVP</h1>
+        </div>
+        <img id="logo" src="images/logo.png" alt="Website logo">
+    </header>
+    <main>
+        <h1>See the Analytics</h1>
+        <h2>A deeper dive into advanced metrics reveals why Herbert is not just a high-volume passer, but truly the league's Most Valuable Player. He is operating behind an offensive line that has been consistently decimated by injuries, resulting in him being pressured an astonishing 173 times—significantly more than any other quarterback in the league. Despite this constant duress and the challenge of having to throw or scramble quickly, Herbert has still managed to maintain an elite Pro Football Focus (PFF) grade of 91.8, ranking him among the very top signal-callers. This disparity between his poor protection and his top-tier output is the clearest analytical argument that he is doing "a lot with a little."</h2>
+        <div id="photo1">
+            <img id="stats1" src="images/stats1.jpg">
+            <h4>Justin Herbert's MVP case is significantly boosted by his decision to expand his game as a legitimate running threat, effectively neutralizing the intense pressure he constantly faces. He is currently leading all quarterbacks in rushing yards (over 300 yards through the first nine weeks of the season), frequently turning busted plays or coverage sacks into crucial gains and first downs. This newfound athleticism and willingness to run for yardage adds a critical, high-value dimension to the Chargers' offense and demonstrates his commitment to doing whatever it takes to win, cementing his value to the team.</h4>
+        </div>
+        <div id="photo2">
+            <h4>Justin Herbert is the central pillar of a highly pass-dependent offense, shouldering the load for a team with notably limited consistency in its rushing attack. By Week 13, the Chargers were among the league leaders in pass attempts, demonstrating the team's reliance on his arm to generate virtually all of their offensive production and maintain competitiveness. This extreme passing volume further highlights his exceptional value, as he must deliver elite statistical output without the benefit of a dominant ground game to alleviate pressure or dictate defensive schemes.</h4>
+            <img id="stats2" src="images/stats2.png">
+        </div>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html" target="_blank">Analytics</a></li>
+            <li><a href="page2.html" target="_blank">Context</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

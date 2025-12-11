@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Herbert - NFL MVP | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+        @font-face {
+            font-family: roboto-regular; 
+			src: url('../font/Roboto-Regular.ttf');
+        }
+
         body{
             background-color: #0073CF;
         }
@@ -48,11 +56,12 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            margin-top: 25px;
             width: 900px;
             margin-bottom: 25px;
-            padding: 25px 35px 25px 35px;
+            padding: 15px 15px 15px 15px;
             background-color: #002244;
-            border-radius: 0 0 15px 15px;
+            border-radius: 25px;
         }
 
         footer{
@@ -106,6 +115,31 @@
             color: #f5f5f5;
         }
 
+        div[id="buttons"]{
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        button{
+            transition: 0.3s;
+            background-color: #ffca06;
+            width: 200px;
+            height: 75px;
+            margin-top: 20px;
+            color: #f5f5f5;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: #b38d06;
+            transition: 0.3s;
+        }
+
     </style>
 </head>
 <body>
@@ -118,7 +152,7 @@
     <main>
         <img id="herbert" src="images/herbert-playing.png" alt="Justin Herbert playing football">
         <h3>Justin Herbert deserves the NFL MVP award this season for his elite statistical production and undeniable influence on a playoff-bound Los Angeles Chargers team. Through the first ten weeks, he ranks second in the entire league in passing yards (2,610) and is tied for third in touchdown passes (19), all while showcasing an underrated dual-threat ability by leading all quarterbacks with 324 rushing yards. He is a primary reason the Chargers hold a strong 7-3 record and a coveted Wild Card spot in the deep AFC conference, proving he has fully developed into a franchise centerpiece whose consistent, high-level performance is directly translating into crucial team success.</h3>
-        <div>
+        <div id="buttons">
             <a href="page1.html" target="_blank"><button>View the Analytics</button></a>
             <a href="page2.html" target="_blank"><button>Understand the Context</button></a>
         </div>
